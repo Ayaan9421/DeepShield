@@ -1,0 +1,7 @@
+{
+    "total_faces": 19,
+    "real_faces": 4,
+    "fake_faces": 15,
+    "fake_percentage": 78.95,
+    "verdict": "Fake"
+}

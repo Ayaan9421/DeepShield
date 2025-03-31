@@ -1,0 +1,17 @@
+/cropped-faces/
+/fake videos/
+/fake-frames/
+/frames/
+/real/
+/real videos/
+/real-frames/
+
+/venv/
+
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
