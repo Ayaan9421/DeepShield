@@ -8,6 +8,8 @@
 
 /venv/
 
+**/.env
+
 *.jpg
 *.jpeg
 *.png

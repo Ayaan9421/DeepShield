@@ -125,6 +125,7 @@ def main(video_path):
     print(f"Final Verdict: {result['verdict']}")
     print(f"Results saved in {result_path}")
 
+
 # Run the script with command-line argument
 if __name__ == "__main__":
     if len(sys.argv) < 2:
