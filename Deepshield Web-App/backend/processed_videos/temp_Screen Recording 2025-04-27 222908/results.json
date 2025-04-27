@@ -1,0 +1,19 @@
+{
+    "total_faces": 10,
+    "real_faces": 1,
+    "fake_faces": 9,
+    "fake_percentage": 90.0,
+    "verdict": "Fake",
+    "face_images": [
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_110_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_120_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_130_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_140_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_150_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_150_1.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_160_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_170_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_190_0.jpg",
+        "./processed_videos\\temp_Screen Recording 2025-04-27 222908\\cropped_faces\\face_frame_200_0.jpg"
+    ]
+}

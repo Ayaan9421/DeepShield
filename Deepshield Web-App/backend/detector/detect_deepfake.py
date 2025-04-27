@@ -62,6 +62,8 @@ def detect_faces(frames_dir, faces_dir):
     os.makedirs(faces_dir, exist_ok=True)
     detector = MTCNN()
 
+    face_paths = []
+
     for frame_file in tqdm(os.listdir(frames_dir), desc="Detecting faces"):
         frame_path = os.path.join(frames_dir, frame_file)
         img = cv2.imread(frame_path)
@@ -73,8 +75,10 @@ def detect_faces(frames_dir, faces_dir):
             face_resized = cv2.resize(face_crop, (299, 299))
             face_path = os.path.join(faces_dir, f"face_{frame_file[:-4]}_{i}.jpg")
             cv2.imwrite(face_path, face_resized)
+            face_paths.append(face_path)
 
     print(f"✅ Faces detected and saved in {faces_dir}")
+    return face_paths
 
 def predict_faces(faces_dir):
     """Pass cropped faces to the trained model and determine deepfake probability."""
@@ -103,7 +107,8 @@ def detect_video(video_path):
     os.makedirs(video_folder, exist_ok=True)
 
     extract_frames(video_path, frames_dir)
-    detect_faces(frames_dir, faces_dir)
+    face_image_paths = detect_faces(frames_dir, faces_dir)
+
 
     real, fake, total = predict_faces(faces_dir)
     fake_percentage = (fake / total) * 100 if total > 0 else 0
@@ -113,7 +118,8 @@ def detect_video(video_path):
         "real_faces": real,
         "fake_faces": fake,
         "fake_percentage": round(fake_percentage, 2),
-        "verdict": "Fake" if fake_percentage > 50 else "Real"
+        "verdict": "Fake" if fake_percentage > 50 else "Real",	
+	"face_images": face_image_paths
     }
 
     # Save result as JSON

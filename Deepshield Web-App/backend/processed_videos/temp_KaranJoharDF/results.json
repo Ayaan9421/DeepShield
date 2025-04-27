@@ -3,5 +3,26 @@
     "real_faces": 4,
     "fake_faces": 15,
     "fake_percentage": 78.95,
-    "verdict": "Fake"
+    "verdict": "Fake",
+    "face_images": [
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_0_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_10_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_100_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_105_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_15_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_20_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_25_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_45_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_5_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_50_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_55_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_60_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_65_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_70_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_75_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_80_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_85_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_90_0.jpg",
+        "./processed_videos\\temp_KaranJoharDF\\cropped_faces\\face_frame_95_0.jpg"
+    ]
 }
